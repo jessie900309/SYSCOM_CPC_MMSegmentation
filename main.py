@@ -3,7 +3,7 @@ from convert_function import convertMP4, convertJPGtoMP4
 from load_model import load_MMSmodel
 
 
-input_video_dir = 'syscom_video/B8DF6B00173A'
+input_video_dir = 'syscom_video/B8DF6B001667'
 mms_opacity = 0.5 # 0~1
 
 
