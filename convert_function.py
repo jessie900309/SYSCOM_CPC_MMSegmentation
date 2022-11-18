@@ -14,6 +14,8 @@ def convertMP4(inputMP4, outputDir, opacity, model):
         save_img = '{}/{}/result{}.jpg'.format(outputDir, input_video_name, img_index)
         model.show_result(frame, result, out_file=save_img, opacity=opacity)
         img_index += 1
+        if img_index%10 == 0:
+            print("...result{}.jpg".format(img_index))
 
 
 def convertJPGtoMP4(inputMP4, outputDir, model):
