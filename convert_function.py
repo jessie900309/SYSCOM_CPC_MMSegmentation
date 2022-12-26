@@ -22,7 +22,7 @@ def convertMP4(inputMP4, outputDir, opacity, model):
         print("{} is not a file!".format(inputMP4))
 
 
-def convertJPGtoMP4(inputMP4, outputDir, model):
+def convertJPGtoMP4(inputMP4, outputDir):
     input_video = inputMP4
     input_video_name = basename(input_video)[:-4]
     input_video_frame_dir = outputDir + '/' + input_video_name
