@@ -20,7 +20,7 @@ def main():
         print("now convert " + input_video_dir + '/' + input_video + '...')
         convertMP4(input_video_path, output_frame_dir, mms_opacity, MMSmodel)
         print("convert image list to video...")
-        convertJPGtoMP4(input_video_path, output_frame_dir, MMSmodel)
+        convertJPGtoMP4(input_video_path, output_frame_dir)
 
 
 if __name__ == '__main__':
